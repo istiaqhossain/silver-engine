@@ -656,6 +656,10 @@ video {
   display: table;
 }
 
+.table-caption {
+  display: table-caption;
+}
+
 .flex-row {
   flex-direction: row;
 }
