@@ -38,8 +38,15 @@
       <div class="flex flex-row flex-wrap justify-center -mx-5">
         <div class="max-w-lg w-full px-5">
           <div class="bg-white shadow-md rounded-md px-10 py-14">
-            <h2 class="font-semibold text-center text-3xl text-indigo-500 mb-12">Forgot Password?</h2>
+            <h2 class="font-semibold text-center text-3xl text-indigo-500 mb-12">Let's create account!</h2>
             <form action="" method="">
+                <div class="relative mb-7">
+                  <label for="username" class="absolute -top-2.5 left-3 px-2 text-sm bg-white">
+                      Username<sup>*</sup>
+                  </label>
+                  <input type="text" name="" autocomplete="off" id="username" class="w-full border-2 border-gray-300 pl-4 pr-10 py-3.5 rounded-md focus:outline-none focus:border-indigo-500">
+                  <span class="material-icons absolute top-4 right-4 text-gray-500 w-5 text-center">person_outlined</span>
+                </div>
                 <div class="relative mb-7">
                     <label for="email" class="absolute -top-2.5 left-3 px-2 text-sm bg-white">
                         Email Address<sup>*</sup>
@@ -47,11 +54,24 @@
                     <input type="email" name="" autocomplete="off" id="email" class="w-full border-2 border-gray-300 pl-4 pr-10 py-3.5 rounded-md focus:outline-none focus:border-indigo-500">
                     <span class="material-icons absolute top-4 right-4 text-gray-500 w-5 text-center">alternate_email</span>
                 </div>
+                <div class="relative mb-7">
+                    <label for="password" class="absolute -top-2.5 left-3 px-2 text-sm bg-white">
+                        Password<sup>*</sup>
+                    </label>
+                    <input type="password" name="" id="password" class="w-full border-2 border-gray-300 pl-4 pr-10 py-3.5 rounded-md focus:outline-none focus:border-indigo-500">
+                    <span class="material-icons absolute top-4 right-4 text-gray-500 w-5 text-center">visibility_off</span>
+                </div>
+                <div class="relative mb-7">
+                  <label for="confirm_password" class="absolute -top-2.5 left-3 px-2 text-sm bg-white">
+                      Confirm Password<sup>*</sup>
+                  </label>
+                  <input type="password" name="" id="confirm_password" class="w-full border-2 border-gray-300 pl-4 pr-10 py-3.5 rounded-md focus:outline-none focus:border-indigo-500">
+              </div>
                 <div class="text-center mb-6">
-                    <button type="type" class="w-full py-3 rounded-md bg-indigo-500 hover:bg-indigo-600 text-white font-medium">Submit</button>
+                    <button type="type" class="w-full py-3 rounded-md bg-indigo-500 hover:bg-indigo-600 text-white font-medium">Sign Up</button>
                 </div>
                 <div class="text-center">
-                  <p>Back to <a href="signin.html" class="text-indigo-500">Sign In</a></p>
+                  <p>Have an account? <a href="signin.html" class="text-indigo-500">Sign In</a></p>
                 </div>
             </form>
           </div>
