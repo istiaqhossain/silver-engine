@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.form-checkbox input[type=checkbox]:checked {
+    @apply bg-indigo-500 border-indigo-500;
+}
