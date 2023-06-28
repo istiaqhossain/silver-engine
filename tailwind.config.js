@@ -1,8 +1,7 @@
 module.exports = {
-  purge: [
+  content: [
     '*.html',
   ],
-  darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
       fontFamily: {
